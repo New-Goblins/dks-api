@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dks-api
+  description: API
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: New-Goblins/dks-api
+spec:
+  type: website
+  system: dojo
+  owner: practice-dojo
+  lifecycle: production
